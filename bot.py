@@ -7,10 +7,6 @@ import openai
 # Токен вашего бота
 API_TOKEN = '7135145517:AAGn2Nh1XZUOqnhHiQSSkUUjBEgS5HnVD7Y'
 
-# Настройка OpenRouter API
-openai.api_key = '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'
-openai.api_base = "https://openrouter.ai/api/v1"
-
 # Инициализация бота и диспетчера
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
