@@ -4,9 +4,6 @@ from aiogram.types import Message
 import asyncio
 import openai
 
-# Токен вашего бота
-API_TOKEN = '7135145517:AAGn2Nh1XZUOqnhHiQSSkUUjBEgS5HnVD7Y'
-
 # Инициализация бота и диспетчера
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
